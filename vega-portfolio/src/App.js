@@ -1,9 +1,13 @@
 import './App.css';
+import About from './components/about/About';
+import Header from './components/header/Header';
+//import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <h1>Yo save</h1>
+      <Header />
+      <About/>
     </div>
   );
 }
