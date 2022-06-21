@@ -1,8 +1,13 @@
 import React from 'react'
+import './projects.css'
 
-function projects() {
+function projects({img,link}) {
   return (
-    <div>projects</div>
+    <div className='project-card'>
+        <a href={link}>
+            <img src={img} />
+        </a>
+    </div>
   )
 }
 
