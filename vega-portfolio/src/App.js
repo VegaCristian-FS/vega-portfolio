@@ -1,13 +1,16 @@
 import './App.css';
 import About from './components/about/About';
+import Contacts from './components/contacts/Contacts';
 import Header from './components/header/Header';
-//import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Projects from './components/projects/Projects';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <About/>
+      <Projects />
+      <Contacts />
     </div>
   );
 }

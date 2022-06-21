@@ -22,7 +22,7 @@ function Header() {
               </div>
             </div>
             <h2>Hello, My name is Cristian Vega.</h2> 
-            <h3>I am happy you are here to see my work. Hope you enjoy your stay!            </h3>
+            <p>I am happy you are here to see my work. Hope you enjoy your stay!</p>
           </div>
         </article>
         <article className='header-right'>
