@@ -60,3 +60,17 @@
     bottom: 0;
     right: 100px;
 }
+
+@media screen and (max-width: 480px) {
+    .header {
+      flex-direction: column;
+    }
+  
+    .header-left {
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+    }
+}

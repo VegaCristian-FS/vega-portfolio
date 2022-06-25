@@ -30,3 +30,23 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media screen and (max-width:480px) {
+    .about{
+      flex-direction: column;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .article-left {
+      width: 100%;
+    }
+
+    .about-img-wrapper {
+      display: none;
+    }
+
+    .article-right{
+      padding: 20px;
+    }
+}

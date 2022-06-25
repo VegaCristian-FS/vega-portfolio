@@ -6,3 +6,10 @@
     border-radius: 10px;
     overflow: hidden;
 }
+
+@media screen and (max-width: 480px) {
+    .project-card {
+      width: 40%;
+      height: 20vh;
+    }
+  }
