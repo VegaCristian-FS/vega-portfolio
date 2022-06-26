@@ -24,6 +24,7 @@ function Header() {
             <h2>Hello, My name is Cristian Vega.</h2> 
             <p>I am happy you are here to see my work. Hope you enjoy your stay!</p>
             <p>This page was created with ReactJS. Then deployed on Heroku.</p>
+            <a className='links' href='https://github.com/VegaCristian-FS/vega-portfolio/blob/main/README.md'>This site's GitHub link</a>
           </div>
         </article>
         <article className='header-right'>

@@ -9,7 +9,7 @@ function projects({img,link,xd,alt,github}) {
             <img src={img} alt={alt}/>
         </a>
         {console.log(img)}
-      </article>s
+      </article>
       <ul>
         <li><a href={xd}>Adobe XD link</a></li>
         <li><a href={github}>GitHub link</a></li>
