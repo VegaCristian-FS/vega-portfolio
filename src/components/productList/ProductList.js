@@ -12,11 +12,9 @@ function ProductList() {
         </article>
         <article className='projects'>
             {products.map((item) => (
-            <Project key={item.id} img={item.img} link={item.link}/>
+            <Project key={item.id} img={item.img} link={item.link} xd={item.xd}/>
             ))}
         </article>
-        
-
     </div>
   )
 }
