@@ -1,13 +1,19 @@
 import React from 'react'
 import './projects.css'
 
-function projects({img,link,xd}) {
+function projects({img,link,xd,alt,github}) {
   return (
-    <div className='project-card'>
+    <div >
+      <article className='project-card'>
         <a href={link}>
-            <img src={img} />
+            <img src={img} alt={alt}/>
         </a>
-        <a href={xd}>Adobe XD link</a>
+        {console.log(img)}
+      </article>s
+      <ul>
+        <li><a href={xd}>Adobe XD link</a></li>
+        <li><a href={github}>GitHub link</a></li>
+      </ul>
     </div>
   )
 }
