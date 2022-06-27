@@ -12,7 +12,7 @@ function ProductList() {
         </article>
         <article className='projects'>
             {products.map((item) => (
-            <Project key={item.id} img={item.img} link={item.link} xd={item.xd} alt={item.alt} github={item.github}/>
+            <Project key={item.id} img={item.img} link={item.link} xd={item.xd} alt={item.alt} github={item.github} title={item.title} code={item.code} desc={item.desc}/>
             ))}
         </article>
     </div>
